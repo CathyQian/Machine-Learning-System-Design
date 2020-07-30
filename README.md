@@ -3,6 +3,8 @@ A collection of useful resources for Machine Learning System Design
 
 - Google Machine Learning Crash Course: https://developers.google.com/machine-learning/crash-course/production-ml-systems
 
+- https://github.com/chiphuyen/machine-learning-systems-design
+
 - https://www.ritchieng.com/machine-learning-systems-design/
 
 - Machine Learning System Design at Large Scale: 

@@ -1,6 +1,7 @@
 # System Design Interview Prep:
 
 - https://www.hackingnote.com/en/interview/system-design-interview-questions
+- https://github.com/donnemartin/system-design-primer#index-of-system-design-topics
 
 # Machine-Learning-System-Design
 A collection of useful resources for Machine Learning System Design

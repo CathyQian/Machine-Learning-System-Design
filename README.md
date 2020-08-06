@@ -1,3 +1,7 @@
+# System Design Interview Prep:
+
+- https://www.hackingnote.com/en/interview/system-design-interview-questions
+
 # Machine-Learning-System-Design
 A collection of useful resources for Machine Learning System Design
 
@@ -17,12 +21,12 @@ https://becominghuman.ai/machine-learning-system-design-f2f4018f2f8
 
 
 # Machine Learning Engineer Interview Questions:
-https://resources.workable.com/machine-learning-engineer-interview-questions
-Amazon Machine Learning Engieer Role: https://towardsdatascience.com/the-amazon-machine-learning-engineer-interview-7def22233382
+- https://resources.workable.com/machine-learning-engineer-interview-questions
+- Amazon Machine Learning Engieer Role: https://towardsdatascience.com/the-amazon-machine-learning-engineer-interview-7def22233382
 
-What is a recent paper you read that you are excited about?
+- What is a recent paper you read that you are excited about?
 
-Given some situation with data and labels, ask what kind of architecture they'd use to solve the problem.
+- Given some situation with data and labels, ask what kind of architecture they'd use to solve the problem.
 What is SGD in your own words? How can dropout be useful in a network? What is the use for a 1x1 convolution?
 --- How do you keep yourself updated?
 

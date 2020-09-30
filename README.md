@@ -10,7 +10,7 @@ A collection of useful resources for Machine Learning System Design
 
 - https://github.com/chiphuyen/machine-learning-systems-design
 
-- https://www.ritchieng.com/machine-learning-systems-design/
+- https://www.ritchieng.com/machine-learning-systems-design/ (Spam classifier example, error analysis, skewed data, precision, recall and large data sets.)
 
 - Machine Learning System Design at Large Scale: 
 https://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-219.pdf
@@ -46,3 +46,10 @@ What is SGD in your own words? How can dropout be useful in a network? What is t
 -- What techniques do you use to fine tune hyper parameters?
 
 -- Give then an example data frame, see what the fuck they'll do with it.
+
+
+    Build a recommendation system that shows relevant products to users
+    Build a visual understanding system for a self-driving car
+    Build a search-ranking/ ads ranking system
+Lets say I am having CTR and want to maximize the # of clicks, Qs like (1) How do we select features (2) Why do we select particular storage type for data over others (3) In terms of HP tuning, how do explore the HP space and select baseline model (4) How do we address missing values in data would be helpful.
+

@@ -1,0 +1,2 @@
+- Design ads creation backend 
+- 从⼀一个很⼤大的⽂文件⾥里里Sample 10k log; 如果分成很多不不同⼤大⼩小的⽂文件放在很 多机器器上怎么办；map reduce 怎么解决.本

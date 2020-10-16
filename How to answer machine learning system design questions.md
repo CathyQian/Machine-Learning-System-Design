@@ -157,6 +157,9 @@ Below are notes from [ref1](https://github.com/chiphuyen/machine-learning-system
 - Recommender System
 - Ads ranking
 
+Grokking system design interview (for brushing up fundamentals and case studies） ($79)
+Grokking the machine learning system design interview (for brushing up fundamentals and case studies） ($79)
+DDIA 堪称经典 Book Designing Data Intensive Applications : for an in-depth look, refer back to fundamental knowledge in OS
 
 这里是一些我准备过程中看过的不错的资源：
 
@@ -172,8 +175,18 @@ Below are notes from [ref1](https://github.com/chiphuyen/machine-learning-system
 
 6. http://highscalability.com/
 
+Facebook machine learning engineer system design requirements
+You should be able to describe the components of an end-to-end ML system, including but not
+limited to; model development, evaluation, and deployment.
 
+You should be able to use existing toolsets to model the problem and break down its
+components.
 
+Be ready to analyze your approach while understanding the tradeoffs between your design
+decisions.
+
+We expect you to have a good understanding of common ML tools/techniques, but we do not
+expect you to know and memorize every ML algorithm out there.
 
 
 youtube有很多视频，一些是在conference上面的，一些在bootcamp上面的
@@ -223,6 +236,3 @@ And this
 https://www.youtube.com/watch?v=BkSdD5VtyRM
 
 system design: 虽然这个是准备面试用的，但是作为大致入门也是差不多了
-Grokking system design interview (for brushing up fundamentals and case studies)
-
-DDIA 堪称经典 Book Designing Data Intensive Applications : for an in-depth look, refer back to fundamental knowledge in OS

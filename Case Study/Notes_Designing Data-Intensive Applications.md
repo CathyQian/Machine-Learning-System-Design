@@ -124,5 +124,72 @@ Advantages of distributed systems:
 
 ## Part III. Derived data
 ### Batch processing
+![](2020-10-03-11-43-59.png)
+[ref](https://www.youtube.com/watch?v=2VJLWot9T7Y)
+real time processing is quite close but **not** equivalent to streaming processing
+
+A batch is a collection of data points that have been grouped together within a specific time interval.
+
+Batch Processing is used for Large, Complex Data Analysis
+
+With batch processing, some type of storage is required to load the data, such as a database or a file system.
+
 ### Streaming processing
+Stream Processing deals with continuous data and is used for Speedy and Real-Time Analytics
+
+With stream processing, data is fed into an analytics system piece-by-piece as soon as it is generated.
+
+streaming processing requires data to be fed into an analytics tool, often in micro-batches, and in real-time.
+
+When coupled with platforms such as Apache Kafka, Apache Flink, Apache Storm, or Apache Samza, stream processing quickly generates key insights, so teams can make decisions quickly and efficiently
+
+Different streams processing tools:
+
+(1) **Apache Kafka**
+
+Apache Kafka is an open-source **stream-processing** *software platform* developed by the Apache Software Foundation, written in Scala and Java. The project aims to **provide a unified, high-throughput, low-latency platform for handling real-time data feeds**.
+
+It has the following characteristics:
+
+- High Throughput
+
+    Deliver messages at **network limited throughput** using a cluster of machines with latencies as low as 2ms.
+
+- Scalable
+
+    Scale production clusters up to a thousand brokers, trillions of messages per day, petabytes of data, hundreds of thousands of partitions. Elastically expand and contract storage and processing.
+
+- Permanent storage
+
+    Store streams of data safely in a distributed, durable, fault-tolerant cluster.
+
+- High availability
+
+    Stretch clusters efficiently over availability zones or connect separate clusters across geographic regions.
+
+ref: https://kafka.apache.org/
+
+Kafka stream vs Spark streaming, NiFi, Flink
+- per data streaming (Kafka) vs micro batch (all others)
+- no cluster required (Kafka) vs cluster required (all others)
+- scales easily by just adding java processes (no re-configuration required) (Kafka)
+- exactly once sematics (Kafka) vs at least once for Spark
+
+(2) **Apache Spark**
+
+Spark is a data parallel open source processing framework. Spark workflows are designed in Hadoop MapReduce but are comparatively more efficient than Hadoop MapReduce. The best feature of Apache Spark is that it does not use Hadoop YARN for functioning but **has its own streaming API and independent processes for continuous batch processing (Spark streaming)** across varying short time intervals. Spark runs **100 times faster than Hadoop** in certain situations, however **doesn’t have its own distributed storage system**.
+
+(3) **Apache Storm**
+
+Apache Storm is an advanced Big Data *processing engine* that processes the **real-time streaming** data at an unprecedented speed, which is **way faster than Apache Hadoop**. 
+
+Storm has its independent workflows in topologies i.e. Directed Acyclic Graphs. Storm does not run on Hadoop clusters but uses Zookeeper and its own minion worker to manage its processes. 
+
+It is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate. It can also be used with any programming language. 
+
+Apache Storm integrates with the queueing and database technologies you already use. 
+
+![](2020-10-03-12-17-46.png)
+
 ### The future of data systems
+
